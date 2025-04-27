@@ -21,7 +21,7 @@
     const resultDiv = document.getElementById('result');
     resultDiv.textContent = "連線中...";
     try {
-      const res = await fetch('https://api-test250427-zn1v-nr2cr8n8l-mauhsiehs-projects.vercel.app/api/chat');
+      const res = await fetch('https://api-test250427-zn1v.vercel.app/api/chat');
 
       if (!res.ok) {
         throw new Error(`HTTP error! Status: ${res.status}`);
